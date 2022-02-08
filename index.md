@@ -22,13 +22,17 @@ function dogAge( age){
     let calc = age*7;
 console.log("Your doggie is "+calc+"years old in dog years!")
 }
-function dogAge(age){
-    let calc = age*7;
-console.log("Your doggie is "+calc+"years old in dog years!")
-}
+
+
 function conRate(rate)
 {
  let conversion = rate/7;
     console.log("Conversion rate of human is " +conversion+ " years to dog years")
 }
+function conRate(age,rate)
+{
+ let calc = age*rate;
+    console.log("Your doggie is "+calc+"years old in dog years!")
+}
+conRate(3,6)
 ```
